@@ -15,7 +15,7 @@
 <body>
     <main>
         <section class="robotron">
-            <img class="robo" src="img/robotron.png" alt="Robotron">
+            <img class="robo" id="image" src="img/robotron.png" alt="Robotron">
             <figcaption class="titulo">ROBOTRON <br>2000</figcaption>
         </section>
 
@@ -97,6 +97,18 @@
                 <input type="submit" value="Iniciar produção" class="producao" id="producao">
             </form>
         </section>
+
+        <section class="cores">
+            <div class="botoes">
+                <button class="alterar" data-cor="azul" id="azul"></button>
+                <button class="alterar" data-cor="amarelo" id="amarelo"></button>
+                <button class="alterar" data-cor="branco" id="branco"></button>
+                <button class="alterar" data-cor="preto" id="preto"></button>
+                <button class="alterar" data-cor="rosa" id="rosa"></button>
+                <button class="alterar" data-cor="vermelho" id="vermelho"></button>
+            </div>
+        </section>
+        
     </main>
 <script src="js/main.js" ></script>
 </body>
